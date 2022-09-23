@@ -8,7 +8,7 @@ app = Flask(__name__)
 
 options = webdriver.ChromeOptions()
 options.add_argument("start-maximized")
-options.binary_location = "/nix/store/2a0fz2n5ri0gd6sdqwfvs4pyz3n66m31-google-chrome-102.0.5005.61/bin/google-chrome-stable"
+# options.binary_location = "/nix/store/2a0fz2n5ri0gd6sdqwfvs4pyz3n66m31-google-chrome-102.0.5005.61/bin/google-chrome-stable"
 options.add_argument("--headless")
 options.add_argument("--disable-gpu")
 options.add_argument("--disable-dev-shm-usage")
