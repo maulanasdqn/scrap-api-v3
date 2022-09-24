@@ -68,4 +68,4 @@ def test():
         return {"message": "Test Error"}
 
 if __name__ == "__main__":
-    app.run(debug=False)
+    app.run(debug=False, port=6969, host="0.0.0.0")
