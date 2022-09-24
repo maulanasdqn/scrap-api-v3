@@ -2,4 +2,4 @@ services:
   app:
     build: .
     ports:
-      - "7777:7777"
+      - "6969:6969"
